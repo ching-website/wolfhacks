@@ -60,3 +60,18 @@ body {
 a.button {
     text-decoration: none;
 }
+
+.header-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #2c3e50;
+    padding: 7px 21px 7px 21px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 3px solid #2c3e50;
+}
