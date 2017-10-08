@@ -4,19 +4,74 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
 
+.emphasize {
+    letter-spacing: 5px;
+    color: rgb(46, 204, 113);
+    font-style: italic;
+}
 
+.title {
+    margin-bottom: 3em;
+    background:rgb(231, 76, 60) url(../img/test.jpg);
+    background-position: center center;
+}
 
+.title .title-content {
+    text-align: center;
+    padding: 10em 2em;
+    background: rgba(0, 0, 0, 0.5);
+}
 
+.title .title-content h1 {
+    font-size: 6em;
+}
 
+.title .title-content h3 {
+    font-size: 3em;
+}
 
+.title .title-content h1, 
+.title .title-content h3 {
+    font-weight: 900;
+    color: rgb(231, 76, 60);
+}
 
+.button {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 15px;
+    padding: 1em;
+    border-style: none;
+    background: rgb(46, 204, 113);
+}
 
+.button-lg {
+    font-size: 16px;
+    padding: 1em 1.5em;
+}
 
+a.button {
+    text-decoration: none;
+}
 
-
-
-
-
-
-
+.header-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #2c3e50;
+    padding: 7px 21px 7px 21px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 3px solid #2c3e50;
+}
