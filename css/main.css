@@ -13,24 +13,31 @@ body {
 
 .emphasize {
     letter-spacing: 5px;
-    color: rgb(46, 204, 113);
+    /*color: rgb(46, 204, 113);*/
+    color: white;
     font-style: italic;
 }
 
 .title {
     margin-bottom: 3em;
-    background:rgb(231, 76, 60) url(../img/test.jpg);
-    background-position: center center;
+    background:rgba(0, 0, 0, 0.75) url(../img/test-2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title-content{
+    background: rgba(0, 0, 0, 0.25);
 }
 
 .title .title-content {
     text-align: center;
     padding: 10em 2em;
-    background: rgba(0, 0, 0, 0.5);
 }
 
 .title .title-content h1 {
-    font-size: 6em;
+    font-size: 5.5em;
 }
 
 .title .title-content h3 {
@@ -40,13 +47,14 @@ body {
 .title .title-content h1, 
 .title .title-content h3 {
     font-weight: 900;
-    color: rgb(231, 76, 60);
+    /*color: rgb(231, 76, 60);*/
+    color: white;
 }
 
-.button {
+/*.button {
     color: rgb(255, 255, 255);
     display: inline-block;
-    border-radius: 15px;
+    border-radius: 2px;
     padding: 1em;
     border-style: none;
     background: rgb(46, 204, 113);
@@ -55,10 +63,26 @@ body {
 .button-lg {
     font-size: 16px;
     padding: 1em 1.5em;
+}*/
+
+.button-outside {
+    padding: 5px;
 }
 
-a.button {
+.button-inside {
+    background: rgb(46, 204, 113);
+    height: 40px;
+    position: relative;
+}
+
+.button-inside > a{
     text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */ 
+    transform: translate(-49%, -49%);
 }
 
 .header-title {
