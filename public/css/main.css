@@ -11,6 +11,15 @@ body {
     margin: 0px;
 }
 
+a {
+    color: #e74c3c;
+}
+
+a:hover {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
 .emphasize {
     letter-spacing: 5px;
     /*color: rgb(46, 204, 113);*/
