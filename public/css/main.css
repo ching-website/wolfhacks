@@ -70,7 +70,7 @@ body {
 }
 
 .button-inside {
-    background: rgb(46, 204, 113);
+    background: #e74c3c;
     height: 40px;
     position: relative;
 }
@@ -87,17 +87,21 @@ body {
 
 .header-title {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
-    color: #2c3e50;
-    padding: 7px 21px 7px 21px;
+    color: #e74c3c;
+    padding: 2px 21px 0px 21px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     display: inline-block;
-    border: 3px solid #2c3e50;
+    border: 3px dashed #e74c3c;
+}
+
+.center-text {
+    text-align: center;
 }
 /*
  * FAQ Section
