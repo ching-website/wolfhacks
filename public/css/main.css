@@ -76,24 +76,30 @@ a:hover {
     padding: 1em 1.5em;
 }*/
 
+
+
+
 .button-outside {
     padding: 5px;
+    color: white;
+    line-height: 20px;
 }
+
 
 .button-inside {
     background: #e74c3c;
+    color: white;
     height: 40px;
-    position: relative;
+    vertical-align: center;
+    -o-transition:.75s;
+    -ms-transition:.75s;
+    -moz-transition:.75s;
+    -webkit-transition:.75s;
+    transition:.75s;
 }
 
-.button-inside > a{
-    text-decoration: none;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    /* bring your own prefixes */ 
-    transform: translate(-49%, -49%);
+.button-inside:hover {
+    background: #d62c1a;
 }
 
 .header-title {
@@ -104,12 +110,24 @@ a:hover {
     text-align: center;
     letter-spacing: 2px;
     color: #e74c3c;
-    padding: 2px 21px 0px 21px;
+    padding: 3px 21px 3px 21px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     display: inline-block;
     border: 3px dashed #e74c3c;
+    vertical-align: middle;
+    float: none;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.header-slug{
+  margin: 0px;
 }
 
 .center-text {
