@@ -76,24 +76,24 @@ a:hover {
     padding: 1em 1.5em;
 }*/
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
 .button-outside {
     padding: 5px;
+    color: white;
+    line-height: 20px;
 }
 
 .button-inside {
     background: #e74c3c;
-    height: 40px;
-    position: relative;
-}
-
-.button-inside > a{
-    text-decoration: none;
     color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    /* bring your own prefixes */ 
-    transform: translate(-49%, -49%);
+    height: 40px;
+    vertical-align: center;
 }
 
 .header-title {
