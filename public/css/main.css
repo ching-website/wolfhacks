@@ -85,11 +85,21 @@ a:hover {
     line-height: 20px;
 }
 
+
 .button-inside {
     background: #e74c3c;
     color: white;
     height: 40px;
     vertical-align: center;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+.button-inside:hover {
+    background: #d62c1a;
 }
 
 .header-title {
